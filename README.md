@@ -1,4 +1,4 @@
-Hamiltonian Monte Carlo -- Tutorial
+# Hamiltonian Monte Carlo -- Tutorial
 Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) algorithm that is particularly effective in sampling from distributions that have complex geometries such as those with multiple modes, curved or elongated tails. HMC is also known as Hybrid Monte Carlo as it combines the Metropolis-Hastings algorithm with Hamiltonian dynamics from physics.
 
 How HMC works
@@ -18,4 +18,3 @@ Although HMC has several advantages, it has some limitations:
 It requires specifying the Hamiltonian function, which can be difficult for some distributions.
 The choice of the integration step size and the number of integration steps can significantly affect the performance of the algorithm. These parameters need to be carefully tuned to ensure good performance.
 The computational cost of simulating the dynamics can be high, especially for high-dimensional distributions.
-Algorithm
