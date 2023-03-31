@@ -9,7 +9,7 @@ Bayesian Physics-Informed Neural Networks (B-PINN) is a machine learning method 
 ## How does B-PINN work?
 ![B-PINN Flow Chart](https://drive.google.com/uc?id=1UvxadtquFBS_F7wIOY6NRJyTHa0poXRp)
 
-# B-PINN Advantages
+## B-PINN Advantages
 Compared to other inverse problem solvers, B-PINN has several advantages:
 
 - It can handle noisy and incomplete experimental data by providing probabilistic estimates of the solution and its uncertainty.
@@ -17,7 +17,7 @@ Compared to other inverse problem solvers, B-PINN has several advantages:
 - It can handle complex and nonlinear systems, as neural networks are universal approximators.
 - It can reduce the computational cost of solving inverse problems, as the physics-informed neural network can provide accurate and fast surrogate models.
 
-# Limitations of B-PINN
+## Limitations of B-PINN
 Despite its many advantages, B-PINN also has some limitations that should be taken into consideration:
 
 - The training process of B-PINN can be computationally expensive, particularly when dealing with large datasets or high-dimensional parameter spaces. This may require the use of specialized hardware or distributed computing resources.
