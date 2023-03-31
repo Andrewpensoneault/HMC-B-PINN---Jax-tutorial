@@ -6,6 +6,11 @@ In this tutorial, we will demonstrate how to perform posterior inference using H
 To install the required packages, run the following command:
 `pip install -r requirements.txt`
 
+Additionally for instructions on how to install the GPU version of JAX, see the installation guide [here](https://github.com/google/jax#installation).
+
+For a general guide on how to utilize JAX, see [here](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html).
+
+
 # References
 The implementation in this tutorial is partially based on the following papers, (as well as suggested readings for this method):
 - [B-PINNs: Bayesian Physics-Informed Neural Networks for Forward and Inverse PDE Problems with Noisy Data](https://arxiv.org/abs/2003.06097)
