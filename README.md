@@ -24,7 +24,7 @@ The implementation in this tutorial is partially based on the following papers, 
 
 Bayesian Physics-Informed Neural Networks (B-PINN) is a machine learning method that combines Bayesian neural networks with physics-informed neural networks to solve inverse problems in scientific and engineering applications. B-PINN provides a powerful and flexible framework for integrating physical laws and experimental data into the training of neural networks, enabling accurate predictions and uncertainty quantification.
 
-## How does B-PINN work?
+## How does B-PINN work (for inverse problems)?
 ![B-PINN Flow Chart](https://drive.google.com/uc?id=1UvxadtquFBS_F7wIOY6NRJyTHa0poXRp)
 
 ## B-PINN Advantages
