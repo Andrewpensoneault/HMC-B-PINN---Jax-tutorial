@@ -1,4 +1,4 @@
-# Tutorial for posterior inference in Bayesian Physics Informed Neural Networks with HMC in Jax
+# Tutorial for posterior inference in Bayesian Physics Informed Neural Networks with HMC in JAX
 
 In this tutorial, we will demonstrate how to perform posterior inference using Hamiltonian Monte Carlo (HMC) in Bayesian Physics Informed Neural Networks (PINNs). By using the Jax library, we will take advantage of its automatic differentiation and GPU acceleration capabilities to efficiently perform inference in Bayesian PINNs.
 
