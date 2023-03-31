@@ -7,10 +7,13 @@ To install the required packages, run the following command:
 `pip install -r requirements.txt`
 
 # References
-The implementation is partially based on the following papers:
-[B-PINNs: Bayesian Physics-Informed Neural Networks for Forward and Inverse PDE Problems with Noisy Data](https://arxiv.org/abs/2003.06097)
-[Physics-constrained bayesian neural network for fluid flow reconstruction with sparse and noisy data](https://www.sciencedirect.com/science/article/pii/S2095034920300295)
-[Efficient Bayesian Physics Informed Neural Networks for Inverse Problems via Ensemble Kalman Inversion](https://arxiv.org/pdf/2303.07392.pdf)
+The implementation in this tutorial is partially based on the following papers, (as well as suggested readings for this method):
+- [B-PINNs: Bayesian Physics-Informed Neural Networks for Forward and Inverse PDE Problems with Noisy Data](https://arxiv.org/abs/2003.06097)
+- [Physics-constrained bayesian neural network for fluid flow reconstruction with sparse and noisy data](https://www.sciencedirect.com/science/article/pii/S2095034920300295)
+- [Efficient Bayesian Physics Informed Neural Networks for Inverse Problems via Ensemble Kalman Inversion](https://arxiv.org/pdf/2303.07392.pdf)
+- [Bayesian physics-informed neural networks for inverse uncertainty quantification problems in cardiac electrophysiology](https://www.politesi.polimi.it/handle/10589/175559)
+- [NeuralUQ: A comprehensive library for uncertainty quantification in neural differential equations and operators
+](https://arxiv.org/abs/2208.11866)
 
 # Bayesian Physics-Informed Neural Networks (B-PINN) 
 
