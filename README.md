@@ -1,18 +1,18 @@
 # Tutorial for posterior inference in Bayesian Physics Informed Neural Networks with HMC in JAX
 
-In this tutorial, we will demonstrate how to perform posterior inference using Hamiltonian Monte Carlo (HMC) in Bayesian Physics Informed Neural Networks (PINNs). By using the Jax library, we will take advantage of its automatic differentiation and GPU acceleration capabilities to efficiently perform inference in Bayesian PINNs.
+In this tutorial, we will demonstrate how to perform posterior inference using Hamiltonian Monte Carlo (HMC) in Bayesian Physics-Informed Neural Networks (PINNs). By using the Jax library, we will take advantage of its automatic differentiation and GPU acceleration capabilities to efficiently perform inference in Bayesian PINNs.
 
 # Installation
 To install the required packages, run the following command:
 `pip install -r requirements.txt`
 
-Additionally for instructions on how to install the GPU version of JAX, see the installation guide [here](https://github.com/google/jax#installation).
+Additionally, for instructions on how to install the GPU version of JAX, see the installation guide [here](https://github.com/google/jax#installation).
 
 For a general guide on how to utilize JAX, see [here](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html).
 
 
 # References
-The implementation in this tutorial is partially based on the following papers, (as well as suggested readings for this method):
+The implementation in this tutorial is partially based on the following papers, as well as suggested readings for this method:
 - [B-PINNs: Bayesian Physics-Informed Neural Networks for Forward and Inverse PDE Problems with Noisy Data](https://arxiv.org/abs/2003.06097)
 - [Physics-constrained bayesian neural network for fluid flow reconstruction with sparse and noisy data](https://www.sciencedirect.com/science/article/pii/S2095034920300295)
 - [Efficient Bayesian Physics Informed Neural Networks for Inverse Problems via Ensemble Kalman Inversion](https://arxiv.org/pdf/2303.07392.pdf)
